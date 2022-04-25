@@ -1,0 +1,20 @@
+.footer {
+  background-color: #2E354A;
+  padding: 40px 0;
+  color: #DBDEE5;
+  bottom: 0;
+  &-name {
+    display: inline-block;
+    font-size: 28px;
+    font-family:'Lucida Sans';
+    font-weight: bold;
+    color: #D6E3F3;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #D6B3B3;
+  }
+
+  &-media {
+    margin-top: 30px;
+    text-align: center;
+  }
+}

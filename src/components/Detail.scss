@@ -1,0 +1,30 @@
+.detail {
+  &__info {
+    display: flex;
+    font-size: 16px;
+  }
+  &__img {
+    display: flex;
+    margin-right: 20px;
+  }
+  &__overview {
+    margin-bottom: 20px;
+  }
+  &__title {
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  &__rating__icon {
+    display: flex;
+    align-items: center;
+  }
+
+}
+
+  .movie__name {
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+
