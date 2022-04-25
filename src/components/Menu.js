@@ -79,10 +79,10 @@ const Menu = () => {
       </div>
       <div className="search__list">
           {searchList.map(({ id, title, backdrop_path }) => (
-              <div className="search__item" key={id}>
-                <img src={imageUrl + backdrop_path} alt="film"/>
-                <span>{title}</span>
-              </div>
+              <Link to={"/detail/" + id} className="search__item" key={id}>
+                  <img src={imageUrl + backdrop_path} alt="film"/>
+                  <span>{title}</span>
+              </Link>
           ))}
       </div>
     </div>
