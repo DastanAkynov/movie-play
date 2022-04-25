@@ -60,7 +60,7 @@ const Menu = () => {
             sx={{ ml: 1, flex: 1, borderBottom: '1px solid #000', width: '300px'}}
             placeholder="Поиск по названию"
             inputProps={{ 'aria-label': 'Поиск по названию' }}
-            onChange={debounce(searchMovies, 200)}
+            onChange={debounce(searchMovies, 300)}
           />
           <IconButton type="submit" sx={{ p: '10px'}} aria-label="search" >
             <SearchIcon />
